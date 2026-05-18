@@ -11,11 +11,6 @@ Route::post('/generer', [AiReportController::class, 'generer'])->name(
 // GET /plugins/ai-analytics/dernier?site_id=1
 Route::get('/dernier', [AiReportController::class, 'dernier'])->name('dernier');
 
-// GET /plugins/ai-analytics/historique?site_id=1
-Route::get('/historique', [AiReportController::class, 'historique'])->name(
-    'historique',
-);
-
 Route::get('/rapport/{id}', [AiReportController::class, 'show'])->name('show');
 
 Route::prefix('/historique')

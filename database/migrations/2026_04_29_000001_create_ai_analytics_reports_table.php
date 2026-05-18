@@ -27,7 +27,7 @@ return new class extends Migration
             $table->date('date_fin')->nullable()->after('date_debut');
             $table->timestamps();
 
-            $table->index(['site_id', 'cree_le']);
+            $table->index(['site_id', 'created_at']);
         });
     }
 
