@@ -11,8 +11,6 @@ Route::post('/generer', [AiReportController::class, 'generer'])->name(
 // GET /plugins/ai-analytics/dernier?site_id=1
 Route::get('/dernier', [AiReportController::class, 'dernier'])->name('dernier');
 
-Route::get('/rapport/{id}', [AiReportController::class, 'show'])->name('show');
-
 Route::prefix('/historique')
     ->name('historique.')
     ->group(function () {
