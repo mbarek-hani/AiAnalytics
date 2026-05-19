@@ -1,8 +1,8 @@
 {
     "identifiant": "ai-analytics",
     "nom": "Analyse IA",
-    "version": "1.0.0",
-    "description": "Génère des rapports d'analyse de trafic automatiques grâce à l'intelligence artificielle. Supporte OpenAI et Groq.",
+    "version": "1.1.0",
+    "description": "Génère des rapports d'analyse de trafic automatiques grâce à l'intelligence artificielle. Actuellement supporte uniquement OpenAI et Groq.",
     "auteur": "Mbarek Hani & Ayoub Jakouri",
     "licence": "MIT",
     "classe": "Plugins\\AiAnalytics\\AiAnalyticsPlugin",
