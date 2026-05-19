@@ -18,7 +18,7 @@ class AiAnalyticsPlugin extends AbstractPlugin
 
     public function getVersion(): string
     {
-        return '1.2.0';
+        return '1.0.0';
     }
 
     public function getOnglets(): array
